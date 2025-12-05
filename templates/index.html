@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="p-5 mb-4 bg-light rounded-3 text-center">
+    <div class="container-fluid py-5">
+        <h1 class="display-5 fw-bold">Bienvenido al Sistema de Cine</h1>
+        <p class="col-md-8 fs-4 mx-auto">Administra fácilmente los registros de Clientes y Películas desde esta interfaz web.</p>
+        <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+            <a href="/clientes" class="btn btn-primary btn-lg px-4 gap-3">Gestionar Clientes</a>
+            <a href="/peliculas" class="btn btn-outline-secondary btn-lg px-4">Gestionar Películas</a>
+        </div>
+    </div>
+</div>
+{% endblock %}
